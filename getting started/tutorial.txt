@@ -1,0 +1,21 @@
+# a Tutorial: Get started with Go
+https://pkg.go.dev/   # search for packages
+
+module > package in go vs  package > module in python
+
+# b Tutorial: Create a Go module
+
+# c Tutorial: Getting started with multi-module workspaces
+go work: unknown command 
+It might be my go version isn't up to date?
+
+# d Tutorial: Developing a RESTful API with Go and Gin
+I have tried to follow the django router convention and it works well, too
+django          Gin
+"albums/"  "/albums"
+
+
+curl http://localhost:8000/albums
+curl post doesn't really work well and I will stick to Postman
+
+
