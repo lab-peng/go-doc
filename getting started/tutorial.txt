@@ -1,7 +1,14 @@
 # a Tutorial: Get started with Go
 https://pkg.go.dev/   # search for packages
 
-module > package in go vs  package > module in python
+Python                      JavaScript                           Go
+venv && activate                                go mod init github.com/golang/protobuf/protoc-gen-go
+pip install django                              go get -u github.com/golang/protobuf/protoc-gen-go
+                            npm install         go mod tidy or go get .
+
+package > module > class                         module > package > function
+
+"fmt" is a package, Println is a function
 
 # b Tutorial: Create a Go module
 
@@ -17,5 +24,15 @@ django          Gin
 
 curl http://localhost:8000/albums
 curl post doesn't really work well and I will stick to Postman
+
+# e Tutorial: Getting started with generics
+
+# f Tutorial: Getting started with fuzzing
+# g Writing Web Applications
+
+
+
+
+
 
 
